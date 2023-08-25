@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashki</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <table>
+            <tr>
+                <td><p class="black" id="0"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="1"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="2"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="3"></p></td>
+                <td class="nothing"></td>
+            </tr>
+            <tr>
+                <td class="nothing"></td>
+                <td><p class="black" id="4"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="5"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="6"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="7"></p></td>
+                
+            </tr>
+            <tr>
+                <td><p class="black" id="8"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="9"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="10"></p></td>
+                <td class="nothing"></td>
+                <td><p class="black" id="11"></p></td>
+                <td class="nothing"></td>
+            </tr>
+            <tr>
+                <td class="nothing"></td>
+                <td></td>
+                <td class="nothing"></td>
+                <td></td>
+                <td class="nothing"></td>
+                <td></td>
+                <td class="nothing"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="nothing"></td>
+                <td></td>
+                <td class="nothing"></td>
+                <td></td>
+                <td class="nothing"></td>
+                <td></td>
+                <td class="nothing"></td>
+            </tr>
+            <tr>
+                <td class="nothing"></td>
+                <td><span class="white" id="12"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="13"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="14"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="15"></span></td>
+            </tr>
+            <tr>
+                <td><span class="white" id="16"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="17"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="18"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="19"></span></td>
+                <td class="nothing"></td>
+            </tr>
+            <tr>
+                <td class="nothing"></td>
+                <td><span class="white" id="20"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="21"></span></td>
+                <td class="nothing">
+                <td><span class="white" id="22"></span></td>
+                <td class="nothing"></td>
+                <td><span class="white" id="23"></span></td>
+            </tr>
+        </table>
+        <button onclick="rules()">Правила игры</button>
+        
+        <div class="hide">
+            <p>
+                Все фигуры белых и черных располагаются на своих стартовых позициях (смотреть макет). Все фигурых ходят вперед по диагонали на одну клетку. Назад движение запрещено. Если на одну клетку по диагонали вперед имеется фигура противника, а позади по диагонали от фигуры противника клетка свободна, то ваша фигура может “перепрыгнуть” через фигуру противника, а сама фигура противника при этом уничтожается. Целью игры является уничтожение всех фигур противника и сохранение хотя бы одной своей.
+            </p>
+            <div onclick="closed()" class="closed">
+                <img src="img/close.png">
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>

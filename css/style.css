@@ -1,0 +1,144 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2B2B2B;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border: 3px solid black;
+    border-radius: 6px;
+    box-shadow: 0px 0px 100px 100px rgba(232, 224, 224, 0.1);
+    background-color: black;
+}
+
+
+.nothing {
+    background-color: white;
+}
+
+td {
+    text-align: center;
+    background-color: black;
+    width: 65px;
+    height: 65px;
+}
+
+
+.black {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    background-color: #181818;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.white {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    background-color: #C6C5C5;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+span {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: darkgrey;
+    color: white;
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+    background-color: darkgrey;
+    border: 3px solid black;
+    box-shadow: 5px 6px 10px 10px black;
+    height: 900px;
+    width: 400px;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+      
+}
+
+.closed {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.closed img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.red-turn-text {
+    text-align: center;
+    color: black;
+    font-family: "open sans";
+    font-size: 55px;
+}
+
+.black-turn-text {
+    text-align: center;
+    font-family: "open sans";
+    font-size: 55px;
+    color: lightgray;
+}
+
+
+.kingblack{
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.kingwhite {
+    background-color: purple;
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#divider {
+    font-size: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
